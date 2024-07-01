@@ -1,0 +1,54 @@
+server:
+  port: 8888
+
+my-car:
+  brand: byd
+  price: 100000
+
+person:
+  user-name: zhangsan
+  boos: false
+  birth: 2024/04/26
+  age: 18
+  pet:
+    name: tom
+    weight: 12.0
+  interests:
+    - 唱
+    - 跳
+    - rap
+    - 篮球
+  animal: [臭屁虫, 蟑螂, 蚊子]
+  score:
+    math: 80
+    english: 90
+  salaries:
+    - 100
+    - 200.0
+  all-pets:
+    sick:
+      - {name: rose, weight: 100.0}
+      - {name: jack, weight: 200.0}
+    health:
+      - {name: tad, weight: 10.2}
+      - {name: mixian, weight: 14.3}
+
+
+#spring:
+#  resources:
+#    add-mappings: false
+spring:
+  resources:
+    cache:
+      period: 100
+  mvc:
+    contentnegotiation:
+      favor-parameter: true
+#      media-types:
+#        key: x-tad
+#        value:
+#          type: application
+#          subtype: x-tad
+
+
+
