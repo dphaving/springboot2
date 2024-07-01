@@ -93,9 +93,9 @@ public class MyConfig {
 
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
-                registry.addInterceptor(new TokenInterceptor())
-                        .addPathPatterns("/**")
-                        .excludePathPatterns("/test/**");
+//                registry.addInterceptor(new TokenInterceptor())
+//                        .addPathPatterns("/**")
+//                        .excludePathPatterns("/test/**");
             }
         };
     }

@@ -44,7 +44,10 @@ spring:
   mvc:
     contentnegotiation:
       favor-parameter: true
-#      media-types:
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
 #        key: x-tad
 #        value:
 #          type: application
